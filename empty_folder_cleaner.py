@@ -87,7 +87,7 @@ def showList(s,l):
     listLen=len(l)
     pad = lambda n : (len(str(listLen))-len(str(n)))*' '
     for i in range(listLen):
-        item = empty[i]
+        item = l[i]
         print(BRIGHT,i+1,')',pad(i+1),WHITE,item,sep='')
     if not l: print("None")
 

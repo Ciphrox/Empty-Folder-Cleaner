@@ -142,6 +142,7 @@ Or write "exit" at any input for exiting.\n\
     elif option == '3':
         RED = WHITE = INVERT = BRIGHT = ''
         startAgain('')
+        return
     else:
         startAgain('Wrong Option')
         return

@@ -58,9 +58,10 @@ def checkBack(path,rem):
 		
 
 # Starts again if error or wrong input
-def startAgain(show):
+def startAgain(show=False):
     cls()
-    print(BRIGHT+show, '\n')
+    if show:
+        print(BRIGHT+show, '\n')
     start()
 
 
@@ -113,6 +114,7 @@ def delete(dir):
 # Start
 def start():
     global init, startTime
+    global RED, WHITE, INVERT, BRIGHT
     option = input(
         f'{BRIGHT}Empty Folder Cleaner.\n\n\
 Choose Your option:\n\
@@ -120,6 +122,7 @@ Choose Your option:\n\
 2.{WHITE} Check the empty folder in given path by user\n\
 Or write "exit" at any input for exiting.\n\
 {INVERT}After checking you will be asked to enter (Y/N) if you want to delete the Folders.{WHITE}\n\
+{BRIGHT}IF GETTING ANY CODE LIKE <03m[> ON TERMINAL THEN CHOOSE OPTION 3\n\n\
 {BRIGHT}Enter your option:{WHITE} ').lower()
     print()
     
@@ -136,6 +139,9 @@ Or write "exit" at any input for exiting.\n\
             return
         elif sys == 'Windows' and path.endswith('\\') and path.endswith('//'):
             path += '\\'
+    elif option == '3':
+        RED = WHITE = INVERT = BRIGHT = ''
+        startAgain('')
     else:
         startAgain('Wrong Option')
         return

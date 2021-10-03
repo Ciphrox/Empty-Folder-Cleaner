@@ -66,16 +66,19 @@ def startAgain(show):
 
 #Ending Info about files/folders.
 def endInfo(string, dir, noDEL=True):
-    if noDEL: noDEL=len(empty)
-    s = lambda num: "s" if num > 1 else ""
-    pad = lambda num: '  ' * \
-        (len(str(max(noDEL, fNum, allNum))) - len(str(num)) + 1)
+    try:
+        if noDEL: noDEL=len(empty)
+        s = lambda num: "s" if num > 1 else ""
+        pad = lambda num: ' ' * \
+            (len(str(max(noDEL, fNum, allNum))) - len(str(num)) + 1)
 
-    showNums = lambda pad, n, pr: print('\n',BRIGHT, n, WHITE, pad(n), pr, sep='', end='')
-    showNums(pad, noDEL, f'Empty folder{s(len(empty))} {string}')
-    showNums(pad, fNum, f'Total folder{s(fNum)} Scanned.')
-    showNums(pad, allNum, f'Total file{s(allNum)} and folder{s(allNum)}.')
-    print(f'\n{BRIGHT}Scanned Folder:{WHITE}{dir}')
+        showNums = lambda pad, n, pr: print('\n',BRIGHT, n, WHITE, pad(n), pr, sep='', end='')
+        showNums(pad, noDEL, f'Empty folder{s(len(empty))} {string}')
+        showNums(pad, fNum, f'Total folder{s(fNum)} Scanned.')
+        showNums(pad, allNum, f'Total file{s(allNum)} and folder{s(allNum)}.')
+        print(f'\n{BRIGHT}Scanned Folder:{WHITE}{dir}')
+    except:
+        input("Crashed")
 
 
 # Show List
@@ -115,7 +118,7 @@ def start():
 Choose Your option:\n\
 1.{WHITE} Check the empty folders in curent path\n{BRIGHT}\
 2.{WHITE} Check the empty folder in given path by user\n\
-\tOr write "exit" at any input for exiting.\n\
+Or write "exit" at any input for exiting.\n\
 {INVERT}After checking you will be asked to enter (Y/N) if you want to delete the Folders.{WHITE}\n\
 {BRIGHT}Enter your option:{WHITE} ').lower()
     print()
@@ -160,7 +163,7 @@ def main():
     showTime=start()
     if showTime:
         _ = input(
-            f'\n\n{INVERT}[Took {round(time.time()-startTime,2)}s in executing]{WHITE} \n\t\tPress Enter to Exit.')
+            f'\n\n{INVERT}[Took {round(time.time()-startTime,2)}s in executing]{WHITE} \nPress Enter to Exit.')
     
 if __name__=="__main__":
     main()

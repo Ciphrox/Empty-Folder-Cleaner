@@ -4,7 +4,7 @@
 
 Clear Empty Directories/Folders present in system
 
-## Short description of package/script
+## Short description of script
 
 - this script is menu driven program
 - libraries imported are 
@@ -20,6 +20,12 @@ So you can run directly without any requirements other than Python itself(Duh.)
 cd Empty Folder Cleaner
 python empty_folder_cleaner.py
 ```
+
+## For using on android
+
+You can use any of the following
+- Pydroid3 
+- Termux
 
 ## Detailed explanation of script
 
@@ -41,9 +47,11 @@ python empty_folder_cleaner.py
 
 > **If getting any code like `03m[` on terminal then choose OPTION 3 in starting**
 
-## Output 
+## Output/Screenshots
 
-<table >
+>***UI may differ due to terminal difference***
+
+<table>
   <tr>
     <td colspan=2 align=center>Starting Screen<img src= "Images/startScreen.jpg" alt="startScreen.jpg">↙↘ </td>
   </tr>

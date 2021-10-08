@@ -38,6 +38,8 @@ cd empty-folder-cleaner
 python empty_folder_cleaner.py
 ```
 
+To run it on android, you can use either Pydroid o Termux.
+
 ## How it works   
 
 The program removes any empty folder(s) fom your device by:

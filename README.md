@@ -88,9 +88,12 @@ Upon deletion, the follwoing would be displayed:
 
 Feel free to add more features to this repo by either creating an issue or making a Pull Request. See our [contribution guidelines](CONTRIBUTING.md) to get started.
 
-# Meet our contributors
+## Meet our contributors
 
 <a href="https://github.com/dark-coder-cat/Empty-Folder-Cleaner/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=dark-coder-cat/Empty-Folder-Cleaner" />
 </a>
 
+## License
+
+This project is under an [MIT LICENSE](LICENSE.md)

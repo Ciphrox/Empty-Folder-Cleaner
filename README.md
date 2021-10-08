@@ -48,10 +48,9 @@ Upon deletion, the follwoing would be displayed:
   - The number of folders deleted.
   - The numebr of folders scanned.
   - The number of files and folders present in the provided path.
-  - `Scanned dir path` 
+  - The scanned dir path.
 
- Or write "exit" at any input for exiting.
-
+> Enter **exit** at any input to stop the program.
 
 
 ## Output 

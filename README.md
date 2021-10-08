@@ -96,4 +96,4 @@ Feel free to add more features to this repo by either creating an issue or makin
 
 ## License
 
-This project is under an [MIT LICENSE](LICENSE.md)
+This project is under an [MIT LICENSE](LICENSE)

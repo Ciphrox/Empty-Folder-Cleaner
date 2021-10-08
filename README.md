@@ -1,17 +1,20 @@
 # Empty Folder Cleaner
 
-## Aim/Purpose
+## Table Of Contents
 
-Clear Empty Directories/Folders present in system
+- [Description](#description)
+- [Libaries Used](#libaries-used)
+- [Setup Instructions](#setup-instructions)
 
-## Short description of script
+## Description
 
-- this script is menu driven program
-- libraries imported are 
-  - time
-  - os
-  - platform
-- external modules -`None`
+Empty Folder Cleaner is a program that deletes empty folders from your computer or device and removes clutter to improve performance. 
+
+## Libaries Used
+
+- [Time](https://docs.python.org/3/library/time.html)
+- [OS](https://docs.python.org/3/library/os.html)
+- [Platform](https://docs.python.org/3/library/platform.html)
 
 ## Setup instructions
 This script doesn't need any additional modules.
@@ -20,12 +23,6 @@ So you can run directly without any requirements other than Python itself(Duh.)
 cd Empty Folder Cleaner
 python empty_folder_cleaner.py
 ```
-
-## For using on android
-
-You can use any of the following
-- Pydroid3 
-- Termux
 
 ## Detailed explanation of script
 
@@ -47,11 +44,9 @@ You can use any of the following
 
 > **If getting any code like `03m[` on terminal then choose OPTION 3 in starting**
 
-## Output/Screenshots
+## Output 
 
->***UI may differ due to terminal difference***
-
-<table>
+<table >
   <tr>
     <td colspan=2 align=center>Starting Screen<img src= "Images/startScreen.jpg" alt="startScreen.jpg">↙↘ </td>
   </tr>

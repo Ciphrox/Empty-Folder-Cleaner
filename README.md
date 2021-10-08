@@ -7,6 +7,7 @@
 - [Setup Instructions](#setup-instructions)
 - [How it works](#how-it-works)
 - [Screenshots](#screenshots)
+- [Contributing](#contributing)
 
 ## Description
 
@@ -82,6 +83,6 @@ Upon deletion, the follwoing would be displayed:
   </tr>
 </table>
 
-## Developer
+## Contributing
 
-[Dark Coder Cat | Vansh](https://github.com/dark-coder-cat)
+Feel free to add more features to this repo by either creating an issue or making a Pull Request. See our [contribution guidelines](CONTRIBUTING.md) to get started.

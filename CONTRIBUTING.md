@@ -19,7 +19,6 @@
 - Make a PR on Github; use a descriptive PR title to specify the change(s) made.
 - Any contribution is welcomed such as fixing grammatical errors, fixing broken links, adding resources, etc.
 - Before contributing, here's our [CODE OF CONDUCT](CODE_OF_CONDUCT.md) which must be adhered to.
-- Verify that any resource(s) to be added isn't already present in the repo, as yours may be a duplicate.
 - Use the `[Title Case Name](link)` format.
 - Use concise descriptions.
 - Pull requests should have a useful title.

@@ -6,6 +6,7 @@
 - [Libaries Used](#libaries-used)
 - [Setup Instructions](#setup-instructions)
 - [How it works](#how-it-works)
+- [Screenshots](#screenshots)
 
 ## Description
 
@@ -53,7 +54,7 @@ Upon deletion, the follwoing would be displayed:
 > Enter **exit** at any input to stop the program.
 
 
-## Output 
+## Sreenshots
 
 <table >
   <tr>

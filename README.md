@@ -54,7 +54,7 @@ Upon deletion, the follwoing would be displayed:
 > Enter **exit** at any input to stop the program.
 
 
-## Sreenshots
+## Screenshots
 
 <table >
   <tr>

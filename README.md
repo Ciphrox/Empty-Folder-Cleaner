@@ -38,7 +38,7 @@ cd empty-folder-cleaner
 python empty_folder_cleaner.py
 ```
 
-To run it on android, you can use either Pydroid o Termux.
+To run it on android, you can use either Pydroid or Termux.
 
 ## How it works   
 

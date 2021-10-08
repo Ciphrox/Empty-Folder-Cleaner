@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Libaries Used](#libaries-used)
 - [Setup Instructions](#setup-instructions)
+- [How it works](#how-it-works)
 
 ## Description
 
@@ -33,14 +34,12 @@ cd Empty Folder Cleaner
 python empty_folder_cleaner.py
 ```
 
-## Detailed explanation of script
+## How it works   
 
-### This script has 3 options:   
+The program removes any empty folder(s) fom your device by:
+- Checking the empty folders in curent path.
+- Checking the empty folder in given path provided by user.
 
-- 1 Check the empty folders in curent path
-- 2 Check the empty folder in given path by user
-- 3 **This is important** See **NOTE**
-    > it is used to change the text color. but on some computers dosen't works.
 - Or write "exit" at any input for exiting.
 - After using opt. 1 or 2 you will be asked to enter (Y/N) if you want to delete the Folders
 - At end it would display 
@@ -51,7 +50,10 @@ python empty_folder_cleaner.py
 
 ## NOTE 
 
-> **If getting any code like `03m[` on terminal then choose OPTION 3 in starting**
+> **
+> Note: If you get any code like `03m[` on your terminal choose OPTION 3 before providing the path to be checked. 
+> Option 3 is used to change the text color but it doesn't work on some devices or computer
+
 
 ## Output 
 

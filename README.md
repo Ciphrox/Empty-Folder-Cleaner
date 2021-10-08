@@ -9,7 +9,7 @@
 
 ## Description
 
-Empty Folder Cleaner is a program that deletes empty folders from your computer or device and removes clutter to improve performance. 
+Empty Folder Cleaner is a program that deletes empty folders from your computer or device and removes clutter to improve performance. It supports only windows and android for now.
 
 ## Libaries Used
 

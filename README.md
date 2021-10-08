@@ -9,6 +9,7 @@
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [Meet our contributors](#meet-our-contibutors)
+- [License](#license)
 
 ## Description
 

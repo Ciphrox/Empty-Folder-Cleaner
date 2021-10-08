@@ -40,19 +40,18 @@ The program removes any empty folder(s) fom your device by:
 - Checking the empty folders in curent path.
 - Checking the empty folder in given path provided by user.
 
-- Or write "exit" at any input for exiting.
-- After using opt. 1 or 2 you will be asked to enter (Y/N) if you want to delete the Folders
-- At end it would display 
-     - `the no. of folder deleted`
-     - `the no. of folders scanned`
-     - `the no. of files and folders present.`
-     - `Scanned dir path` 
-
-## NOTE 
-
-> **
 > Note: If you get any code like `03m[` on your terminal choose OPTION 3 before providing the path to be checked. 
-> Option 3 is used to change the text color but it doesn't work on some devices or computer
+> Option 3 is used to change the text color but it doesn't work on some devices or computer.
+
+After providing the path to be checked, you'll be required to enter (Y/N) to confim the deletion of the folders.
+Upon deletion, the follwoing would be displayed: 
+  - The number of folders deleted.
+  - The numebr of folders scanned.
+  - The number of files and folders present in the provided path.
+  - `Scanned dir path` 
+
+ Or write "exit" at any input for exiting.
+
 
 
 ## Output 

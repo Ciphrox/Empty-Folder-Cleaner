@@ -19,10 +19,17 @@ Empty Folder Cleaner is a program that deletes empty folders from your computer 
 ## Setup instructions
 
 There are no prerequisites; simply run the script. If you don't already have Python installed, you can get it [here](https://www.python.org/downloads/).
-This script doesn't need any additional modules.
-So you can run directly without any requirements other than Python itself(Duh.)
-```cmd
+
+- Clone the repository
+```
+git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
+```
+- Go to the folder directory
+```
 cd Empty Folder Cleaner
+```
+- Run the script
+```
 python empty_folder_cleaner.py
 ```
 

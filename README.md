@@ -27,7 +27,7 @@ git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
 ```
 - Go to the folder directory
 ```
-cd Empty Folder Cleaner
+cd empty-folder-cleaner
 ```
 - Run the script
 ```

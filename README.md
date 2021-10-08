@@ -8,6 +8,7 @@
 - [How it works](#how-it-works)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
+- [Meet our contributors](#meet-our-contibutors)
 
 ## Description
 
@@ -86,3 +87,10 @@ Upon deletion, the follwoing would be displayed:
 ## Contributing
 
 Feel free to add more features to this repo by either creating an issue or making a Pull Request. See our [contribution guidelines](CONTRIBUTING.md) to get started.
+
+# Meet our contributors
+
+<a href="https://github.com/dark-coder-cat/Empty-Folder-Cleaner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dark-coder-cat/Empty-Folder-Cleaner" />
+</a>
+

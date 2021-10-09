@@ -8,7 +8,7 @@
 - [How it works](#how-it-works)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [Meet our contributors](#meet-our-contibutors)
+- [Meet our contributors](#meet-our-contributors)
 - [License](#license)
 
 ## Description
@@ -21,7 +21,7 @@ Empty Folder Cleaner is a program that deletes empty folders from your computer 
 - [OS](https://docs.python.org/3/library/os.html)
 - [Platform](https://docs.python.org/3/library/platform.html)
 
-## Setup instructions
+## Setup Instructions
 
 There are no prerequisites; simply run the script. If you don't already have Python installed, you can get it [here](https://www.python.org/downloads/).
 
@@ -99,4 +99,4 @@ Feel free to add more features to this repo by either creating an issue or makin
 
 ## License
 
-This project is under an [MIT LICENSE](LICENSE)
+This project is under an [MIT LICENSE](LICENSE).

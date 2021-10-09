@@ -3,7 +3,7 @@
 ## Table Of Contents
 
 - [Description](#description)
-- [Libaries Used](#libaries-used)
+- [Libraries Used](#libraries-used)
 - [Setup Instructions](#setup-instructions)
 - [How it works](#how-it-works)
 - [Screenshots](#screenshots)
@@ -15,7 +15,7 @@
 
 Empty Folder Cleaner is a program that deletes empty folders from your computer or device and removes clutter to improve performance. It supports only windows and android for now.
 
-## Libaries Used
+## Libraries Used
 
 - [Time](https://docs.python.org/3/library/time.html)
 - [OS](https://docs.python.org/3/library/os.html)
@@ -30,7 +30,7 @@ There are no prerequisites; simply run the script. If you don't already have Pyt
 git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
 ```
 - Go to the folder directory
-```
+```cmd
 cd Empty-Folder-Cleaner
 ```
 - Run the script
@@ -38,7 +38,7 @@ cd Empty-Folder-Cleaner
 python empty_folder_cleaner.py
 ```
 
-To run it on android, you can use either Pydroid or Termux.
+To run it on Android, you can use either [Pydroid3][Py3] or [Termux][Termux].
 
 ## How it works   
 
@@ -46,10 +46,10 @@ The program removes any empty folder(s) fom your device by:
 - Checking the empty folders in curent path.
 - Checking the empty folder in given path provided by user.
 
-> Note: If you get any code like `03m[` on your terminal choose OPTION 3 before providing the path to be checked. 
-> Option 3 is used to change the text color but it doesn't work on some devices or computer.
+> **Note:** If you get any code like `03m[` on your terminal choose **OPTION 3** before providing the path to be checked. <br>**Reason:**
+> > It is used to change the text color but it doesn't work on some devices or computer.
 
-After providing the path to be checked, you'll be required to enter (Y/N) to confim the deletion of the folders.
+After providing the path to be checked, you'll be required to enter `(Y/N)` to confirm the deletion of the folders.
 Upon deletion, the following would be displayed: 
   - The number of folders deleted.
   - The number of folders scanned.
@@ -61,6 +61,7 @@ Upon deletion, the following would be displayed:
 
 ## Screenshots
 
+>***UI may differ due to terminal difference***
 <table >
   <tr>
     <td colspan=2 align=center>Starting Screen<img src= "Images/startScreen.jpg" alt="startScreen.jpg">↙↘ </td>
@@ -100,3 +101,7 @@ Feel free to add more features to this repo by either creating an issue or makin
 ## License
 
 This project is under an [MIT LICENSE](LICENSE).
+
+<!--links-->
+[Py3]: https://play.google.com/store/apps/details?id=ru.iiec.pydroid3
+[Termux]: https://f-droid.org/packages/com.termux/

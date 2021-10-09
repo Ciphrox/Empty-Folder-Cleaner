@@ -1,57 +1,67 @@
 # Empty Folder Cleaner
 
-## Aim/Purpose
+## Table Of Contents
 
-Clear Empty Directories/Folders present in system
+- [Description](#description)
+- [Libaries Used](#libaries-used)
+- [Setup Instructions](#setup-instructions)
+- [How it works](#how-it-works)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [Meet our contributors](#meet-our-contributors)
+- [License](#license)
 
-## Short description of script
+## Description
 
-- this script is menu driven program
-- libraries imported are 
-  - time
-  - os
-  - platform
-- external modules -`None`
+Empty Folder Cleaner is a program that deletes empty folders from your computer or device and removes clutter to improve performance. It supports only windows and android for now.
 
-## Setup instructions
-This script doesn't need any additional modules.
-So you can run directly without any requirements other than Python itself(Duh.)
-```cmd
-cd Empty Folder Cleaner
+## Libaries Used
+
+- [Time](https://docs.python.org/3/library/time.html)
+- [OS](https://docs.python.org/3/library/os.html)
+- [Platform](https://docs.python.org/3/library/platform.html)
+
+## Setup Instructions
+
+There are no prerequisites; simply run the script. If you don't already have Python installed, you can get it [here](https://www.python.org/downloads/).
+
+- Clone the repository
+```
+git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
+```
+- Go to the folder directory
+```
+cd Empty-Folder-Cleaner
+```
+- Run the script
+```
 python empty_folder_cleaner.py
 ```
 
-## For using on android
+To run it on android, you can use either Pydroid or Termux.
 
-You can use any of the following
-- Pydroid3 
-- Termux
+## How it works   
 
-## Detailed explanation of script
+The program removes any empty folder(s) fom your device by:
+- Checking the empty folders in curent path.
+- Checking the empty folder in given path provided by user.
 
-### This script has 3 options:   
+> Note: If you get any code like `03m[` on your terminal choose OPTION 3 before providing the path to be checked. 
+> Option 3 is used to change the text color but it doesn't work on some devices or computer.
 
-- 1 Check the empty folders in curent path
-- 2 Check the empty folder in given path by user
-- 3 **This is important** See **NOTE**
-    > it is used to change the text color. but on some computers dosen't works.
-- Or write "exit" at any input for exiting.
-- After using opt. 1 or 2 you will be asked to enter (Y/N) if you want to delete the Folders
-- At end it would display 
-     - `the no. of folder deleted`
-     - `the no. of folders scanned`
-     - `the no. of files and folders present.`
-     - `Scanned dir path` 
+After providing the path to be checked, you'll be required to enter (Y/N) to confim the deletion of the folders.
+Upon deletion, the following would be displayed: 
+  - The number of folders deleted.
+  - The number of folders scanned.
+  - The number of files and folders present in the provided path.
+  - The scanned dir path.
 
-## NOTE 
+> Enter **exit** at any input to stop the program.
 
-> **If getting any code like `03m[` on terminal then choose OPTION 3 in starting**
 
-## Output/Screenshots
+## Screenshots
 
->***UI may differ due to terminal difference***
-
-<table>
+<table >
   <tr>
     <td colspan=2 align=center>Starting Screen<img src= "Images/startScreen.jpg" alt="startScreen.jpg">↙↘ </td>
   </tr>
@@ -77,6 +87,16 @@ You can use any of the following
   </tr>
 </table>
 
-## Developer
+## Contributing
 
-[Dark Coder Cat | Vansh](https://github.com/dark-coder-cat)
+Feel free to add more features to this repo by either creating an issue or making a Pull Request. See our [contribution guidelines](CONTRIBUTING.md) to get started.
+
+## Meet our contributors
+
+<a href="https://github.com/dark-coder-cat/Empty-Folder-Cleaner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dark-coder-cat/Empty-Folder-Cleaner" />
+</a>
+
+## License
+
+This project is under an [MIT LICENSE](LICENSE).

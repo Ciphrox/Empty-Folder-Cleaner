@@ -31,7 +31,7 @@ git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
 ```
 - Go to the folder directory
 ```
-cd empty-folder-cleaner
+cd Empty-Folder-Cleaner
 ```
 - Run the script
 ```
@@ -50,9 +50,9 @@ The program removes any empty folder(s) fom your device by:
 > Option 3 is used to change the text color but it doesn't work on some devices or computer.
 
 After providing the path to be checked, you'll be required to enter (Y/N) to confim the deletion of the folders.
-Upon deletion, the follwoing would be displayed: 
+Upon deletion, the following would be displayed: 
   - The number of folders deleted.
-  - The numebr of folders scanned.
+  - The number of folders scanned.
   - The number of files and folders present in the provided path.
   - The scanned dir path.
 

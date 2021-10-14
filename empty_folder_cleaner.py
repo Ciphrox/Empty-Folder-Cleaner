@@ -127,7 +127,7 @@ Or write "exit" at any input for exiting.\n\
     print()
     
     if option == 'exit': return False
-    elif option == '1':
+    if option == '1':
         path = os.getcwd()
     elif option == '2':
         print(f"{RED}NOTE ! - If given none then would scan the internal storage(Android).{WHITE}")
@@ -137,7 +137,7 @@ Or write "exit" at any input for exiting.\n\
         if not os.path.exists(init+path):
             startAgain('The Path does not exit.\nTry again')
             return
-        elif sys == 'Windows' and path.endswith('\\') and path.endswith('//'):
+        if sys == 'Windows' and path.endswith('\\') and path.endswith('//'):
             path += '\\'
     elif option == '3':
         RED = WHITE = INVERT = BRIGHT = ''

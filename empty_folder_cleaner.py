@@ -49,13 +49,13 @@ def checkDir(path, rem):
                     checkBack(item,rem)
     except:
             pass
-            
-                                  
+
+
 # Check the pervious directory
 def checkBack(path,rem):
 	if all(rmPre(os.path.join(path,item)) in empty for item in os.listdir(path)):
 		empty.append(rmPre(path.replace(rem,'')))
-		
+
 
 # Starts again if error or wrong input
 def startAgain(show=False):
@@ -102,7 +102,7 @@ def delete(dir):
 	   	path = init+e
 	   	os.rmdir(path)
 	   	nDel+=1
-	   	print(BRIGHT, i,') ', 
+	   	print(BRIGHT, i,') ',
 	   	    WHITE, path, RED+'-----Removed!!!'+WHITE,sep='')
 	   except:
 	   	notDel.append(path)
@@ -118,14 +118,14 @@ def start():
     option = input(
         f'{BRIGHT}Empty Folder Cleaner.\n\n\
 Choose Your option:\n\
-1.{WHITE} Check the empty folders in curent path\n{BRIGHT}\
-2.{WHITE} Check the empty folder in given path by user\n\
+1.{WHITE} Check the empty folders and subfolders in curent path\n{BRIGHT}\
+2.{WHITE} Check the empty folders and subfolders in given path by user\n\
 Or write "exit" at any input for exiting.\n\
 {INVERT}After checking you will be asked to enter (Y/N) if you want to delete the Folders.{WHITE}\n\
 {BRIGHT}IF GETTING ANY CODE LIKE <03m[> ON TERMINAL THEN CHOOSE OPTION 3\n\n\
 {BRIGHT}Enter your option:{WHITE} ').lower()
     print()
-    
+
     if option == 'exit': return False
     if option == '1':
         path = os.getcwd()
@@ -150,10 +150,10 @@ Or write "exit" at any input for exiting.\n\
     startTime = time.time()
     dirPath = init+path
     checkDir(dirPath, rem)
-    
+
     cls()
     showList('Empty',empty)
-    
+
     if empty:
         toDel = input(f'\n{BRIGHT}Do you want to delete these?(Y/N): {WHITE}').upper()
         if toDel=='Y':
@@ -171,6 +171,6 @@ def main():
     if showTime:
         _ = input(
             f'\n\n{INVERT}[Took {round(time.time()-startTime,2)}s in executing]{WHITE} \nPress Enter to Exit.')
-    
+
 if __name__=="__main__":
     main()

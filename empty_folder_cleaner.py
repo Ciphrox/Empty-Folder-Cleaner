@@ -83,8 +83,8 @@ def endInfo(string, dir, noDEL=True):
 
 
 # Show List
-def showList(l):
-    print(f'{BRIGHT}Empty Folders:\n{WHITE}',end='')
+def showList(s,l):
+    print(f'{BRIGHT}{s} Folders:\n{WHITE}',end='')
     listLen=len(l)
     pad = lambda n : (len(str(listLen))-len(str(n)))*' '
     for i in range(listLen):
@@ -152,7 +152,7 @@ Or write "exit" at any input for exiting.\n\
     checkDir(dirPath, rem)
 
     cls()
-    showList(empty)
+    showList('Empty',empty)
 
     if empty:
         toDel = input(f'\n{BRIGHT}Do you want to delete these?(Y/N): {WHITE}').upper()

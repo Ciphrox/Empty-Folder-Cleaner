@@ -27,7 +27,7 @@ There are no prerequisites; simply run the script. If you don't already have Pyt
 
 - Clone the repository
 ```
-git clone https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
+git clone https://github.com/ciphrox/Empty-Folder-Cleaner.git
 ```
 - Go to the folder directory
 ```cmd
@@ -94,8 +94,8 @@ Feel free to add more features to this repo by either creating an issue or makin
 
 ## Meet our contributors
 
-<a href="https://github.com/dark-coder-cat/Empty-Folder-Cleaner/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=dark-coder-cat/Empty-Folder-Cleaner" />
+<a href="https://github.com/ciphrox/Empty-Folder-Cleaner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ciphrox/Empty-Folder-Cleaner" />
 </a>
 
 ## License

@@ -83,14 +83,14 @@ def endInfo(string, dir, noDEL=True):
 
 
 # Show List
-def showList(s,l):
-    print(f'{BRIGHT}{s} Folders:\n{WHITE}',end='')
-    listLen=len(l)
+def showList(canDelete,dirList):
+    print(f'{BRIGHT}{canDelete} Folders:\n{WHITE}',end='')
+    listLen=len(dirList)
     pad = lambda n : (len(str(listLen))-len(str(n)))*' '
     for i in range(listLen):
-        item = l[i]
+        item = dirList[i]
         print(BRIGHT,i+1,')',pad(i+1),WHITE,item,sep='')
-    if not l: print("None")
+    if not dirList: print("None")
 
 
 #Delete

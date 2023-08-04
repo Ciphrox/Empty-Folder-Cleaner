@@ -3,11 +3,11 @@
 - Fork the repo
 - Open your terminal and clone it on your machine:  
   ```
-  https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
+  https://github.com/ciphrox/Empty-Folder-Cleaner.git
   ```
 - Add an upstream link to the main branch in your cloned repo: 
   ```
-  git remote add upstream https://github.com/dark-coder-cat/Empty-Folder-Cleaner.git
+  git remote add upstream https://github.com/ciphrox/Empty-Folder-Cleaner.git
   ```
 - Keep your cloned repo up to date by pulling from upstream (to avoid any merge conflicts while committing new changes): 
   ```

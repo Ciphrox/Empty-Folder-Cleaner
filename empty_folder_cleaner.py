@@ -1,4 +1,4 @@
-#code written by @dark-coder-cat at github
+#code written by @ciphrox at github
 #to run empty_folder_cleaner.py on android use pydroid3(any others may also work)
 
 import os
